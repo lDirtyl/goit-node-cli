@@ -1,0 +1,22 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "nanoid": "^5.1.5"
+  },
+  "devDependencies": {
+    "detect-file-encoding-and-language": "^2.4.0",
+    "nodemon": "^3.1.10"
+  }
+}
